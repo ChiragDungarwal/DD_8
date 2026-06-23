@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <title>Dungarwal Distributors | Industrial Electrical Supplier</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- Top Header with Dungarwal as Button and Brand Logos -->
+  <div class="top-bar">
+    <div class="container">
+      <a href="index.html" class="company-name-btn">Dungarwal Distributors</a>
+      <div class="brand-logos">
+        <img src="images/bch-logo.png" alt="BCH Electric" class="brand-logo">
+        <img src="images/socomec-logo.png" alt="Socomec" class="brand-logo">
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Navigation -->
+  <nav class="main-nav">
+    <div class="container">
+      <a href="index.html" class="nav-logo">
+        <!-- <img src="images/logo.png" alt="Logo" class="logo-img"> -->
+      </a>
+      <div class="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="nav-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section with Slideshow -->
+  <section class="hero">
+    <div class="slideshow-container">
+      <div class="slideshow">
+        <div class="slide active">
+          <div class="slide-bg" style="background-image: url('images/slide1.jpg');"></div>
+          <div class="slide-overlay"></div>
+          <div class="slide-text slide-text-right">
+
+            <h2>Quality Electrical Products</h2>
+            <p>Premium range </p>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="slide-bg" style="background-image: url('images/slide2.jpg');"></div>
+          <div class="slide-overlay"></div>
+          <div class="slide-text slide-text-right">
+            <h2>BCH Electric Authorized Dealer</h2>
+            <p>Genuine MCCB, MCB, Contactors and more</p>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="slide-bg" style="background-image: url('images/slide3.jpg');"></div>
+          <div class="slide-overlay"></div>
+          <div class="slide-text slide-text-right">
+            <h2>Socomec Partner</h2>
+            <p>High-quality power control and safety solutions</p>
+          </div>
+        </div>
+      </div>
+      <div class="hero-content">
+        <h1 class="fade-up">Industrial Electrical Solutions</h1>
+        <p class="fade-up delay-1">Authorized dealer of BCH Electric & Socomec products. Quality electrical components
+          for industrial applications.</p>
+        <a href="catalog.pdf" class="btn-primary fade-up delay-2" download>
+          <i class="fas fa-download"></i> Download Catalogue
+        </a>
+      </div>
+      <div class="image-container">
+        <!-- Your content here -->
+        <img src="images/background.jpg" alt="Background" class="container-bg">
+        <div class="container-content">
+          <!-- Your text or other elements go here -->
+        </div>
+      </div>
+      <button class="slide-prev"><i class="fas fa-chevron-left"></i></button>
+      <button class="slide-next"><i class="fas fa-chevron-right"></i></button>
+      <div class="slide-dots"></div>
+
+    </div>
+
+  </section>
+
+  <!-- About Section -->
+  <section class="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-content">
+          <h2>About Us</h2>
+          <p>Dungarwal Distributors is a trusted name in the industrial electrical supply industry. With years of
+            experience, we provide high-quality electrical components from leading manufacturers.</p>
+          <div class="stats">
+            <div class="stat">
+              <h3>10+</h3>
+              <p>Years Experience</p>
+            </div>
+            <div class="stat">
+              <h3>500+</h3>
+              <p>Happy Clients</p>
+            </div>
+            <div class="stat">
+              <h3>1000+</h3>
+              <p>Products Delivered</p>
+            </div>
+          </div>
+        </div>
+        <div class="about-image">
+          <img src="images/about.jpg" alt="About Us">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Brands Section with Clickable Cards -->
+  <section class="brands">
+    <div class="container">
+      <h2>Our Trusted Partners</h2>
+      <div class="brands-grid">
+        <a href="products.html" class="brand-card clickable">
+          <img src="images/bch-logo.png" alt="BCH Electric">
+          <h3>BCH Electric</h3>
+          <p>Leading manufacturer of electrical switchgear and controlgear</p>
+          <span class="brand-btn">View Products <i class="fas fa-arrow-right"></i></span>
+        </a>
+        <a href="products.html" class="brand-card clickable">
+          <img src="images/socomec-logo.png" alt="Socomec">
+          <h3>Socomec</h3>
+          <p>Global expert in low-voltage electrical equipment</p>
+          <span class="brand-btn">View Products <i class="fas fa-arrow-right"></i></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Dungarwal Distributors</h4>
+          <p>Your trusted partner for industrial electrical products and solution</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <a href="index.html">Home</a>
+          <a href="products.html">Products</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Info</h4>
+          <p><i class="fas fa-phone"></i>+91 9950136568, +91 9232067636</p>
+          <p><i class="fas fa-envelope"></i> dungarwaldistributors@gmail.com</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Dungarwal Distributors. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
